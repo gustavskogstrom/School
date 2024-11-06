@@ -25,6 +25,7 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Interface\" />
+    <Folder Include="Middleware\" />
     <Folder Include="Services\" />
     <Folder Include="Data\Migrations\" />
     <Folder Include="Dtos\" />
