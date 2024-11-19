@@ -1,0 +1,52 @@
+a, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #212121;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .logo h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header .logo h1 a:visited {
+    color: white;
+}
+
+header .logo h1 a:hover {
+    color: lightgray;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    font-size: 1.2rem;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: white;
+}
